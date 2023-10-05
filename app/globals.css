@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+.img{
+  z-index:1;
+}
+.footer{
+  width:100%;
+  position: fixed;
+  bottom:0;
+}
+
+#player1{
+  display: inline-block;
+  width:40%;
+  height:300px;
+  margin-left:7.5%;
+  margin-right:2.5%;
+  text-align: center; 
+  cursor: pointer;
+  margin-top:50px;
+  z-index:2;
+}
+
+#player2{
+  display: inline-block;
+  width:40%;
+  margin-left:2.5%;
+  margin-right:7.5%;
+  height:300px;
+  text-align: center;
+  cursor: pointer;
+  margin-top:50px;
+  z-index:2;
+}
+
+#play{
+  width:40%;
+  height:80px;
+  text-align:center;
+  z-index:3;
+  margin:auto;
+}
+
+#player1_color{
+  display: inline-block;
+  width:40%;
+  height:500px;
+  margin-left:7.5%;
+  margin-right:2.5%;
+  text-align: center; 
+  margin-top:50px;
+  z-index:2;
+}
+
+#player2_color{
+  display: inline-block;
+  width:40%;
+  margin-left:2.5%;
+  margin-right:7.5%;
+  height:500px;
+  text-align: center;
+  margin-top:50px;
+  z-index:2;
+}
+
+#login{
+  width:60%;
+  height:40%;
+  text-align: center;
+  margin-right: 20%;
+  background-color: aliceblue;
+  z-index: 4;
+}
+
+#form{
+  background-color: rgb(206, 197, 197);
+  width: 60%;
+  height:500px;
+  margin-right: 20%;
+  margin-left:20%;
+  margin-top:10%;
+  border-radius: 10px;
+  padding-top:10px;
+}
+
+#input-field{
+  background-color: aliceblue;
+  width:90%;
+  padding:20px;
+  margin: 5%;
+  border-radius: 10px;
+}
+#login{
+  width:30%;
+  height:40px;
+  align-items: center;
+  margin-left:35%;
+  margin-bottom:10px;
+  border-radius: 10px;
+}
